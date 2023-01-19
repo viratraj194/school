@@ -1,0 +1,83 @@
+.student_account {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.student_img .img {
+    display: flex;
+    margin: auto;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.student_img .img img {
+    width: 200px;
+    margin: 10px;
+}
+
+.student_img .img .image_input input {
+    margin: 4px 6px;
+    background-color: orange;
+    padding: 6px;
+    border-radius: 8px;
+    color: white;
+}
+
+.student_img .img .image_input label {
+    margin: 4px 6px;
+    font-size: medium;
+    font-weight: 400;
+}
+
+
+/* student input area */
+
+.student_form {
+    background-color: antiquewhite;
+    width: 900px;
+    margin: 10px auto;
+}
+
+.student_input {
+    margin: auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.student_input .inputs {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input input {
+    width: 600px;
+    height: 40px;
+}
+
+.class {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#input1 input {}
