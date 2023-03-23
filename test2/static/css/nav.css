@@ -69,3 +69,41 @@
     color: white;
     background-color: rgb(252, 133, 7);
 }
+
+
+/* footer  */
+
+footer {
+    border: 3px solid rgb(252, 133, 7);
+    background-color: #edebeb;
+    padding: 20px;
+}
+
+.school_name h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(252, 133, 7);
+    border-bottom: 1px solid rgb(252, 133, 7);
+}
+
+.social_m {
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.bi-whatsapp:hover {
+    color: green;
+}
+
+.bi-youtube:hover {
+    color: red;
+}
+
+.bi-facebook:hover {
+    color: blue;
+}
+
+.bi-instagram:hover {
+    color: rgb(233, 17, 53);
+}

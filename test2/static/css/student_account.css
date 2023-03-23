@@ -1,83 +1,70 @@
-.student_account {
-    position: relative;
-    display: flex;
-    box-sizing: border-box;
-}
-
-.sidebar {
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-.student_img .img {
-    display: flex;
-    margin: auto;
-    width: 400px;
-    align-items: center;
-    justify-content: center;
-}
-
-.student_img .img img {
-    width: 200px;
-    margin: 10px;
-}
-
-.student_img .img .image_input input {
-    margin: 4px 6px;
-    background-color: orange;
-    padding: 6px;
+.s_sidebar {
+    background-color: rgb(228, 226, 223);
     border-radius: 8px;
-    color: white;
+    padding: 20px;
 }
 
-.student_img .img .image_input label {
-    margin: 4px 6px;
-    font-size: medium;
-    font-weight: 400;
-}
-
-
-/* student input area */
-
-.student_form {
-    background-color: antiquewhite;
-    width: 900px;
-    margin: 10px auto;
-}
-
-.student_input {
-    margin: auto;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    width: 800px;
-}
-
-.student_input .inputs {
-    display: flex;
+.s_sidebar ul li {
     margin: 10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.input {
-    margin-left: 10px;
-    margin-top: 10px;
+.s_sidebar ul li .bi {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.s_sidebar ul li span {
+    display: none;
+}
+
+.s_sidebar ul li:hover span {
+    display: inline;
+}
+
+.dashboard {
+    width: 800px;
+    background-color: #edebeb;
+    padding: 10px;
+}
+
+.dashboard .log_id img {
+    width: 100px;
+}
+
+.dashboard .log_id {
+    margin: 5px 20px;
+}
+
+.dashboard .log_id div {
+    font-size: 20px;
+}
+
+.student_details {
+    padding: 20px;
+    margin: 0 30px;
+    font-size: 18px;
+}
+
+
+/* utils */
+
+.d_flex {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.width_80 {
+    margin: auto;
+    width: 80%;
+}
+
+.j_content_space_between {
     justify-content: space-between;
 }
 
-.input input {
-    width: 600px;
-    height: 40px;
+.r_8 {
+    border-radius: 8px;
 }
-
-.class {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-#input1 input {}

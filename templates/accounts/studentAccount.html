@@ -13,101 +13,40 @@
 </head>
 
 <body>
-    <h2>{{user.username}}</h2>
-    <div class="student_account">
-        <div class="sidebar" style="width: 600px; height: 800px;">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate est eos, iusto possimus at numquam saepe, beatae magnam aut eveniet nulla impedit quis doloribus expedita autem sit porro nostrum! Doloremque, natus ducimus perspiciatis debitis reprehenderit,
-            eum similique ipsam beatae aut cum ad dolorem ipsa eligendi incidunt harum asperiores tenetur! Ipsam eveniet debitis quisquam maiores expedita sequi illo aperiam quos exercitationem at doloribus ipsum corporis soluta labore voluptatem, sit
-            iusto? Sequi beatae eos soluta officiis dolorem officia incidunt corporis, obcaecati harum ipsum molestias quam nihil? Commodi numquam cumque perspiciatis suscipit voluptates. Neque ut odio nihil consequuntur, beatae voluptates numquam minima
-            aliquid.
-            <div>
 
-            </div>
+    <div class="d-flex width_80  j_content_space_between mt-5 mb-5">
+        <div class="sidebar">
+            {%include 'include/s_sidebar.html'%}
         </div>
-        <div class="student_form">
-            <div class="student_img">
-                <div class="img" id="img-1">
-                    <img src="{%static 'img/sub1.jpg'%}" alt="img">
-                    <div class="image_input">
-                        <label for="">image</label>
-                        <input type="file" name="" id="">
+        <div class="dashboard r_8">
+            <div class="d_flex log_id j_content_space_between ">
+                <div class="d_flex ">
+                    <span>Login as:</span>&nbsp;
+                    <strong>{{user.username}}</strong>
 
-                    </div>
                 </div>
-                <div class="img" id="img-2">
-                    <img src="{%static 'img/sub1.jpg'%}" alt="img">
-                    <div class="image_input">
-                        <label for="">image</label>
-                        <input type="file" name="" id="">
-
-                    </div>
-                </div>
-                <div class="img" id="img-3">
-                    <img src="{%static 'img/sub1.jpg'%}" alt="img">
-                    <div class="image_input">
-                        <label for="">image</label>
-                        <input type="file" name="" id="">
-
-                    </div>
-                </div>
+                <img src="{% static 'img/teacher1.jpg' %}" alt="">
             </div>
-            <div class="student_input">
-                <div class="inputs">
-                    <div class="input " id="input1">
-                        <label for="">Name</label>
-                        <input type="text" name="" id="">
-
-                    </div>
-                    <div class="class ">
-                        <div class="input" id="input2">
-                            <label for="">Class</label>
-                            <input type="text" name="" id="">
-
-                        </div>
-
-                        <div class="input " id="input3">
-                            <label for="">Section</label>
-                            <input type="text" name="" id="">
-
-                        </div>
-
-                        <div class="input " id="input4">
-                            <label for="">Roll No</label>
-                            <input type="text" name="" id="">
-
-                        </div>
-
-
-                    </div>
-
-                    <div class="input " id="input5">
-                        <label for="">Class Teachers Name</label>
-                        <input type="text" name="" id="">
-
-                    </div>
-                    <div class="input " id="input6">
-                        <label for="">Address</label>
-                        <input type="text" name="" id="">
-
-                    </div>
-                    <div class="input " id="input7">
-                        <label for="">Pin Code</label>
-                        <input type="text" name="" id="">
-
-                    </div>
-                    <div class="input " id="input8">
-                        <label for="">District</label>
-                        <input type="text" name="" id="">
-
-                    </div>
-
-
-
+            <hr>
+            <div class="student_details">
+                <div class="d_flex j_content_space_between">
+                    <h4 class="mb-3">First Name</h4>
+                    <h4>First Name</h4>
                 </div>
-
+                <div class="d_flex j_content_space_between">
+                    <h4 class="mb-3">Class</h4>
+                    <h4 class="mb-3">section</h4>
+                    <h4>Roll no</h4>
+                </div>
+                <div class="d_flex j_content_space_between">
+                    <h4 class="mb-3">city</h4>
+                    <h4 class="mb-3">Village</h4>
+                    <h4>Pin Code</h4>
+                </div>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
